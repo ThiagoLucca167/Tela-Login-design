@@ -52,9 +52,12 @@ body{
 .opcoesDeLogin ul li a{
     text-decoration: none;
     color: white;
+    font-size: 17px;
+    text-shadow: 1px 1px black;
 }
 .opcoesDeLogin ul li a:hover{
     text-decoration: underline;
+    color: #727272;
 }
 
 .bntEnviar button{
@@ -107,12 +110,11 @@ body{
 }
 
 
-
 body{
     background-image: url(img/1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 2s;
+    transition: 3s;
 }
 .sol{
     background-image: url(img/sunny.png);
@@ -120,7 +122,6 @@ body{
 .lua{
     background-image: url(img/moon.png);
 }
-
 .iconeCor{
     background-position: center;
     width: 65px;
@@ -129,5 +130,4 @@ body{
     left: 20px;
     top: 20px;
     cursor: pointer;
-    transition: 2s;
 }

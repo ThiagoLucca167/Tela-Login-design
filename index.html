@@ -43,13 +43,13 @@
     <div id="lua" class="lua iconeCor"></div>
 
     <script>
+        document.getElementById("sol").style.display = "none"
     document.getElementById("sol").addEventListener("click", function() {
         document.body.style.backgroundImage = "url('img/1.png')";
         document.body.classList.remove("lua");
         document.body.classList.add("sol");
         document.getElementById("sol").style.display = "none";
         document.getElementById("lua").style.display = "block";
-        document.getElementById("lua").style.transition = "2s";
 });
 
     document.getElementById("lua").addEventListener("click", function() {
@@ -58,7 +58,6 @@
         document.body.classList.add("lua");
         document.getElementById("lua").style.display = "none";
         document.getElementById("sol").style.display = "block";
-        document.getElementById("sol").style.transition = "2s";
 });
 
     </script>
