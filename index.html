@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
-<body>
-    <div class="sol">
+<body id="corFundo">
+    <div id="sol" class="sol iconeCor">
        
     </div>
     <div class="formulario">
@@ -40,6 +40,27 @@
             <button>entrar</button>
            </div>
     </div>
-    <div class="lua"></div>
+    <div id="lua" class="lua iconeCor"></div>
+
+    <script>
+    document.getElementById("sol").addEventListener("click", function() {
+        document.body.style.backgroundImage = "url('img/1.png')";
+        document.body.classList.remove("lua");
+        document.body.classList.add("sol");
+        document.getElementById("sol").style.display = "none";
+        document.getElementById("lua").style.display = "block";
+        document.getElementById("lua").style.transition = "2s";
+});
+
+    document.getElementById("lua").addEventListener("click", function() {
+        document.body.style.backgroundImage = "url('img/3.png')";
+        document.body.classList.remove("sol");
+        document.body.classList.add("lua");
+        document.getElementById("lua").style.display = "none";
+        document.getElementById("sol").style.display = "block";
+        document.getElementById("sol").style.transition = "2s";
+});
+
+    </script>
 </body>
 </html>
