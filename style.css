@@ -29,7 +29,14 @@ body{
 
 }
 
-
+.loginEsenha{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -58,7 +65,7 @@ body{
     padding: 5px 5px 5px 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 200px; /* Ajuste conforme necessário */
+    width: 270px; /* Ajuste conforme necessário */
   }
 
 .imageUser{
