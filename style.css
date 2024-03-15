@@ -24,7 +24,7 @@ body{
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -38,7 +38,33 @@ body{
     align-items: center;
 }
 
+.opcoesDeLogin{width: 100%;}
+.opcoesDeLogin ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.opcoesDeLogin ul li{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.opcoesDeLogin ul li input{
+    margin-right:10px ;
+}
+.opcoesDeLogin ul li a{
+    text-decoration: none;
+    color: white;
+}
 
+.bntEnviar button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #ffffffb8;
+    background-color: #00000070;
+}
 
 
 
